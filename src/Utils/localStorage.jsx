@@ -427,3 +427,4 @@ export const getLocalStorage = () => {
   const admin = JSON.parse(localStorage.getItem("admin"));
   return { employees, admin };
 };
+getLocalStorage();
